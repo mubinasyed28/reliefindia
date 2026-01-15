@@ -1,0 +1,10 @@
+project_id = "enccaichtzvrtpsolpkx"
+
+[functions.validate-bill]
+verify_jwt = true
+
+[functions.get-mapbox-token]
+verify_jwt = true
+
+[functions.send-notification]
+verify_jwt = false
